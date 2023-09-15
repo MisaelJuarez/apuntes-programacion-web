@@ -1,0 +1,73 @@
+/*Alineacion en el eje Y de la cuadricula
+para la simplificacion de align-content y justify-content
+
+place-content: center center;
+*/
+.items {
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(216, 226, 14);
+}
+
+.container-1 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: start;
+}
+.container-2 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: end;
+}
+.container-3 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: center;
+}
+.container-4 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: space-around;
+}
+.container-5 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: space-between;
+}
+.container-6 {
+    width: 700px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(2,100px);
+    align-content: space-evenly;
+}

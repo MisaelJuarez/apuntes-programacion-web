@@ -1,0 +1,38 @@
+* {
+    background-color: darkgray;
+}
+
+body,html {
+    background-color: blue;
+}
+
+#titulo {
+    color: red;
+}
+.texto {
+    cursor: pointer;
+}
+
+a {
+    color: aqua;
+}
+
+form>fieldset>label {
+    background-color: red;
+}
+
+.nav {
+    background-color: blueviolet;
+}
+
+.nav>a {
+    color: white;
+    background-color: blueviolet;
+}
+
+.nav>a:first-child {
+    background-color: red;
+}
+.nav>a:last-child {
+    background-color: aqua;
+}

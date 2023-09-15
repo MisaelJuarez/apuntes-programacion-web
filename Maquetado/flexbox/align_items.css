@@ -1,0 +1,34 @@
+/*cross axis (eje de las Y)*/
+.flex-items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    height: 500px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+}
+.container-2 {
+    height: 500px;
+    display: flex;
+    background-color: blue;
+    align-items: end;
+}
+.container-3 {
+    height: 500px;
+    display: flex;
+    background-color: blue;
+    align-items: center;
+}
+
+/*
+Nos agranda los contenedores hasta la parte de abajo, siempre y cuando no cuente con una altura
+align-items: stretch;
+*/

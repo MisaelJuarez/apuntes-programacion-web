@@ -1,0 +1,59 @@
+/* 
+Trabaja en el cross axis eje de las Y
+Para usar align-content se necesita que el contenedor sea wrap o wrap-reverse */
+
+.flex-items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+    flex-flow: row wrap; /*row y wrap*/
+    align-content: flex-start;
+}
+.container-2 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+.container-3 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+    flex-flow: row wrap;
+    align-content: center;
+}
+.container-4 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+.container-5 {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+    align-items: start;
+    flex-flow: row wrap;
+    align-content: space-around;
+}

@@ -1,0 +1,56 @@
+/* 
+flex-shrink : se comprime el contenedor mas que los otros si tiene un numero mayor a los demas 
+y se comprime menos cuando su numero es mas chico que el de los demas items
+
+flex-basis : nos permite darle un tamaño a los items, a diferencia de width, basis si no alcanza el tamaño
+que le dimos dentro del contenedor, este llegara hasta donde el contenedor le permita, sin en cambio con 
+width se desbordaria nuestro item del contenedor.
+*/
+
+.flex-items {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+.flex-item {
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    display: flex;
+    background-color: blue;
+}
+.item-1 {
+    flex-shrink: 2;
+}
+.item-2 {
+    flex-shrink: 1;
+}
+.item-3{
+    flex-shrink: 3;
+}
+.item-4 {
+    flex-shrink: 4;
+}
+
+.item-5 {
+    flex-basis: 150px;
+}
+.item-6 {
+    flex-basis: 300px;
+}
+.item-7 {
+    flex-basis: 200px;
+}
+.item-8 {
+    flex-basis: 500px;
+}

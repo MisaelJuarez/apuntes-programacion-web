@@ -1,0 +1,41 @@
+/*main axis (eje x)*/
+.flex-items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    display: flex;
+    background-color: blue;
+    justify-content: start;
+}
+.container-2 {
+    display: flex;
+    background-color: blue;
+    justify-content: end;
+}
+.container-3 {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+}
+.container-4 {
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+}
+.container-5 {
+    display: flex;
+    background-color: blue;
+    justify-content: space-around;
+}
+.container-6 {
+    display: flex;
+    background-color: blue;
+    justify-content: space-evenly;
+}

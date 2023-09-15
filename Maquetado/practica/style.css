@@ -1,0 +1,53 @@
+body {
+    margin: 100px 300px;
+    border: 3px;
+    border-style: solid;
+    padding: 25px;
+    background-color: rgb(45, 44, 44);
+    color: white;
+    background-image: url(./fondo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: x-large;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background-color: rgb(46, 46, 194);
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(86, 86, 249);
+    color: beige;
+}

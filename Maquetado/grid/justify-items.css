@@ -1,0 +1,58 @@
+/*Alineacion en el eje X  de los items*/
+.items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(216, 226, 14);
+}
+.d {
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(216, 226, 14);
+}
+
+.container-1 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: stretch;
+}
+.container-2 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: start;
+}
+.container-3 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: end;
+}
+.container-4 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}

@@ -1,0 +1,36 @@
+/* Nos permite acomodar de manera individual a los items */
+
+.flex-items {
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    width: 70%;
+    height: 600px;
+    display: flex;
+    background-color: blue;
+}
+
+.item-1 {
+    height: 100px;
+    align-self: flex-start;
+}
+.item-2 {
+    height: 100px;
+    align-self: flex-end;
+}
+.item-3{
+    height: 100px;
+    align-self: center;
+}
+.item-4 {
+    align-self: stretch;
+}
+.item-5 {
+    align-self: baseline;
+}

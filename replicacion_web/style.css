@@ -1,0 +1,325 @@
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.396);
+}
+
+nav > img {
+    width: 80px;
+    height: 50px;
+}
+
+#barra-navegacion > li > a {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    font-weight: bold;
+}
+
+#barra-navegacion > li > a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+#menu-hamburgesa {
+    font-size: 50px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+}
+
+#principal > button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #b4d820;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#principal > button:hover {
+    cursor: pointer;
+    background-color: #337ab7;
+}
+
+#contenido-sobre-nosotros {
+    background-color: #b4d820;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido-sobre-nosotros > h2 {
+    text-align: center;
+    width: 20%;
+    color: white;
+    font-size: 40px;
+}
+
+#contenido-sobre-nosotros > p {
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+#contenido-sobre-nosotros > button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contenido-sobre-nosotros > button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.826);
+}
+
+
+#servicios-principales > h2 {
+    text-align: center;
+    margin: 10% 0 40px 0;
+    font-size: 35px;
+}
+
+#servicios-principales {
+    width: 100%;
+}
+
+#servicios-principales > article {
+    display: flex;   
+    justify-content: center;
+}
+
+#contenedor-cards {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 265px;
+    height: 250px;
+    margin: 15px 10px 17px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card > img {
+    width: 50px;
+}
+
+.card > h3 {
+    font-size: 23px;
+}
+
+.card > p {
+    font-size: 20px;
+}
+
+#areas-servicios {
+    padding-top: 8rem;
+}
+
+#contenedor-img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    margin-right: 45px;
+}
+
+#ubicacion {
+    background-color: #b4d820;
+    width: 100%;
+    height: 200px;
+}
+
+#contenido-ubicacion > h2 {
+    margin: 0px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 33px;
+}
+
+#contenido-ubicacion {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenido-ubicacion > button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#contenido-ubicacion > button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.826);
+}
+
+footer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#fot {
+    background-color: #e9e8e8;
+    width: 100%;
+}
+
+#contactos {
+    width: 70%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#phone_email {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contenedor {
+    padding: 5px;
+}
+
+.icono {
+    color: #b4d820;
+    font-size: 40px;
+    padding-left: 50%;
+}
+
+.icono:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+#contenedor-lista {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenedor-lista > li > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #666666;
+}
+
+#contenedor-lista > li > a:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+
+@media (max-width: 1160px) {
+    #phone_email {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icono {
+        padding-left: 5%;
+    }
+    #menu-hamburgesa {
+        display: flex;
+    }
+
+    #barra-navegacion {
+        position: absolute;
+        flex-direction: column;
+        transform: translate(-100%);
+    }
+}
+
+@media (max-width: 1136px) {
+    #contenedor-cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1020px) {
+    #contenedor-img{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 884px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .contenedor > p {
+        text-align: center;
+    }
+    #contenedor-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #contenido-sobre-nosotros > h2 {
+        width: 100%;
+    }
+}
+

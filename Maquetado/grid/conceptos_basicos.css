@@ -1,0 +1,43 @@
+.items {
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(216, 226, 14);
+}
+
+.container-1 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* Simplificacion
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr) */
+}
+.container-2 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main . saibar"
+    "footer footer footer";
+}
+
+.item-1 {
+    grid-area: header;
+}
+.item-2 {
+    grid-area: main;
+}
+.item-3 {
+    grid-area: saibar;
+}
+.item-4 {
+    grid-area: footer;
+}

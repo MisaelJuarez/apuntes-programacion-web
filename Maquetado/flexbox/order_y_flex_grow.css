@@ -1,0 +1,40 @@
+.flex-items {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: aqua;
+}
+
+.container-1 {
+    display: flex;
+    background-color: blue;
+}
+
+.item-1 {
+    order: 3;
+}
+.item-2 {
+    order: 1;
+}
+.item-3{
+    order: 0;
+}
+.item-4 {
+    order: 2;
+}
+
+.item-5 {
+    flex-grow: 4;
+}
+.item-6 {
+    flex-grow: 1;
+}
+.item-7 {
+    flex-grow: 2;
+}
+.item-8 {
+    flex-grow: 3;
+}
