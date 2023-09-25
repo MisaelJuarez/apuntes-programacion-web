@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "e0a5f14ed0ab58a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d4c4997f7f9b817",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b92c281aff831a1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apunte_DOM/Que es el DOM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa24878ad301ddc9",
+    "type": "split",
+    "children": [
+      {
+        "id": "295b4158bbd35ffd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "364eab91bfbdf40c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0972903166aee227",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e8982a4c9ef88947",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40c6baf777a40548",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e95a7552e4b3f34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bcba6ad055150c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Apunte_DOM/Que es el DOM.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b1572282605da3d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Apunte_DOM/Que es el DOM.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b85ae9771c5886c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ed608f9e37616142",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Apunte_DOM/Que es el DOM.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir quick switcher": false,
+      "graph:Abrir vista de gráfico": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "b92c281aff831a1b",
+  "lastOpenFiles": [
+    "Apunte_DOM",
+    "Apunte_DOM/Pasted image 20230925112945.png",
+    "Apunte_DOM/Que es el DOM.md"
+  ]
+}
