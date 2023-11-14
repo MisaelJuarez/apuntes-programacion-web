@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS agenda;
+
+CREATE DATABASE IF NOT EXISTS agenda;
+
+USE agenda;
+
+CREATE TABLE IF NOT EXISTS t_contacto (
+	id INT NOT NULL AUTO_INCREMENT,
+    nombres VARCHAR(50) NOT NULL,
+    apellidos VARCHAR(50) NOT NULL,
+    telefono VARCHAR(10) NOT NULL,
+    email VARCHAR(70) NOT NULL,
+    PRIMARY KEY (id)
+);
